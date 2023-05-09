@@ -1,13 +1,10 @@
 FROM openjdk:17
 
+# Set the working directory
 WORKDIR /app
 
 # Copy the contents of the current directory to the container at /app
 COPY . /app
-
-ARG JAR_FILE=target/Dentsoft.jar
-
-ADD ${JAR_FILE} Dentsoft.jar
 
 # Build the Java project
 RUN ./mvnw package
@@ -16,4 +13,4 @@ RUN ./mvnw package
 EXPOSE 8081
 
 # Run the application
-CMD ["java", "-jar", "target/Dentsoft.jar"]
+CMD ["java", "-jar", "target/Dentsoft.jar", "--spring.jpa.hibernate.ddl-auto=update"]
