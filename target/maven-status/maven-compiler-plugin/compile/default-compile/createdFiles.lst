@@ -1,0 +1,16 @@
+com\backend\dentsoft\DentsoftApplication.class
+com\backend\dentsoft\doktor\DoktorRepository.class
+com\backend\dentsoft\doktor\DoktorServiceİmpl.class
+com\backend\dentsoft\doktor\DoktorController.class
+com\backend\dentsoft\doktor\Doktor.class
+com\backend\dentsoft\hasta\HastaRepository.class
+com\backend\dentsoft\core\utilities\results\SuccessDataResult.class
+com\backend\dentsoft\core\utilities\results\Result.class
+com\backend\dentsoft\hasta\Hasta.class
+com\backend\dentsoft\hasta\HastaServiceİmpl.class
+com\backend\dentsoft\core\utilities\results\SuccessResult.class
+com\backend\dentsoft\core\utilities\results\DataResult.class
+com\backend\dentsoft\Controller.class
+com\backend\dentsoft\hasta\HastaController.class
+com\backend\dentsoft\doktor\DoktorService.class
+com\backend\dentsoft\hasta\HastaService.class
